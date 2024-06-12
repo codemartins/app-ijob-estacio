@@ -22,7 +22,7 @@ export default function Register() {
         console.error('Por favor, preencha todos os campos.');
         return;
         
-      };
+      }
       
   
       // Registre o usuário no Supabase
