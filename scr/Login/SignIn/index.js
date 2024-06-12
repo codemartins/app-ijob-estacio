@@ -25,7 +25,7 @@ export default function SignIn() {
         const user = users[0];
   
         if (user.isAdmin) {
-          navigation.navigate('RoutesAdmin');
+          navigation.navigate('RoutesUsuario');
         } else {
           navigation.navigate('RoutesUsuario');
         }
